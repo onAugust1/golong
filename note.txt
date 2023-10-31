@@ -1,0 +1,1 @@
+go run 比go build要快，因为go build生成了一个exe文件。但是exe文件的执行比run直接编译源码要快很多。
