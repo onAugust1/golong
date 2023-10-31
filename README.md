@@ -1,1 +1,1 @@
-note for golong
+note for golong study

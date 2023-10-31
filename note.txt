@@ -1,1 +1,19 @@
 go run 比go build要快，因为go build生成了一个exe文件。但是exe文件的执行比run直接编译源码要快很多。
+
+1 
+main is needed,one package and one func named main
+2
+for example
+
+package main
+
+import(
+	"fmt"
+)
+
+func main(){
+	fmt.Pintln("aaa","bbb")
+}
+
+3
+"(){" is should be noted
